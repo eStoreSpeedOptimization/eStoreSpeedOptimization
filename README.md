@@ -26,7 +26,8 @@ Container element autosize to fit background image formula
 Fade effect to lazyloading images
 -------
 After lazysizes script add the code below
-``` <style>
+``` 
+<style>
     /* fade image in after load */
 .lazyload,
 .lazyloading {
