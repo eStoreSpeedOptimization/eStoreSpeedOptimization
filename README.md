@@ -1,16 +1,20 @@
-### Hi there 👋
+## Welcome to eStoreSpeedOptimization.com code file. Feel free to use the code below to help you optimize your Shopify stores speed.
 
-<!--
-**eStoreSpeedOptimization/eStoreSpeedOptimization** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Lazyload background images
+------
 
-Here are some ideas to get you started:
+1. Add data-bg attribute with image url to element ```<div data-bg="{{ 'veggies.jpg' | file_img_url: 'master' }}"></div>```
+2. Add lazyload class ```<div class="lazyload" data-bg="{{ 'veggies.jpg' | file_img_url: 'master' }}"></div>```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Lazyload video element (only play when scrolled into view)
+------
+
+1. Add lazyload class to video element ```<video class="lazyload"></video>```
+2. Add video attributes: preload="none", muted, autoplay, controls ```<video class="lazyload" preload="none" muted autoplay controls data-poster="poster.jpg" src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" type="video/mp4"></video>```
+
+Lazyload iFrame
+-------
+
+1. Add lazyload class to iframe element ```<iframe class="lazyload"></iframe>```
+2. Add data-src attribute with video url to iframe element ```<iframe class="lazyload" width="560" height="315" data-src="https://www.youtube.com/embed/BADxzcJ5XRU"</iframe>```
+3. Maybe you will need to add parameters to the video to make it autoplay e.g. &autoplay=1&mute=1 ```<iframe class="lazyload" width="560" height="315" data-src="https://www.youtube.com/embed/BADxzcJ5XRU?&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>```
