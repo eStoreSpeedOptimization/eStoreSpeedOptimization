@@ -22,3 +22,18 @@ Lazyload iFrame
 Container element autosize to fit background image formula
 -------
 (img-height / img-width * container-width) e.g. (853 / 1280 * 100) 
+
+Fade effect to lazyloading images
+-------
+After lazysizes script add the code below
+``` <style>
+    /* fade image in after load */
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+  </style>```
