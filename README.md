@@ -17,7 +17,7 @@ Lazyload iFrame
 
 1. Add lazyload class to iframe element ```<iframe class="lazyload"></iframe>```
 2. Add data-src attribute with video url to iframe element ```<iframe class="lazyload" width="560" height="315" data-src="https://www.youtube.com/embed/BADxzcJ5XRU"</iframe>```
-3. Maybe you will need to add parameters to the video to make it autoplay e.g. &autoplay=1&mute=1 ```<iframe class="lazyload" width="560" height="315" data-src="https://www.youtube.com/embed/BADxzcJ5XRU?&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>````
+3. Maybe you will need to add parameters to the video to make it autoplay e.g. &autoplay=1&mute=1 ```<iframe class="lazyload" width="560" height="315" data-src="https://www.youtube.com/embed/BADxzcJ5XRU?&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>```
 
 Container element autosize to fit background image formula
 -------
